@@ -1,6 +1,9 @@
-import '@/styles/globals.css'
+import '@/styles/globals.css';
 
 import Layout from "../../components/Layout";
+
+import Banner from '../../components/Cards';
+
 
 
 export default function App({ Component, pageProps }) {
@@ -8,7 +11,8 @@ export default function App({ Component, pageProps }) {
 <Layout>
  <Component {...pageProps} />
   </Layout>
+  
   )
-  // try pushing
+  
  
 }
