@@ -18,7 +18,7 @@ function Footer() {
           </div>
           {/* //Midlle collum */}
           <div className={styles.column_02}>
-            <div className={styles.title_footer}>LINKS</div>
+            <h4 className={styles.title_footer}>LINKS</h4>
             <Link className={styles.link_a} href="/about">
               Link 01
             </Link>
@@ -35,8 +35,16 @@ function Footer() {
 
           {/* Last collum */}
           <div className={styles.column_03}>
-            <div className={styles.title_footer}>CONTACT US</div>
-            <span>lindaemail@company.com</span>
+            <h4 className={styles.title_footer}>CONTACT US</h4>
+            <div className={styles.email_footer}>
+              <span className="material-symbols-outlined">mail</span>
+              <a
+                href="mailto: lindaemail@company.com"
+                className={styles.p_email}
+              >
+                lindaemail@company.com
+              </a>
+            </div>
           </div>
         </div>
 

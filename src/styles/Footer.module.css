@@ -44,6 +44,14 @@
   margin-bottom: 2rem;
 }
 
+.email_footer {
+  display: flex;
+}
+
+.p_email {
+  margin-left: 0.3rem;
+}
+
 .bottom_footer {
   background-color: #53bac1;
   color: #373f41;
