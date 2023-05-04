@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer {
+  font-family: "Mulish", sans-serif;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-self: center;
+  background-color: #eef8f9;
+  color: #4b4b4b;
+  padding: 2rem;
+}
+
+.column_01 {
+  padding-right: 7rem;
+  text-align: justify;
+}
+
+.column_02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column_03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_footer {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  color: #53bac1;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.bottom_footer {
+  background-color: #53bac1;
+  color: #373f41;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 1rem 0 1rem 0;
+}
+
+.link_a:hover {
+  border-bottom: #53bac1 solid 0.1rem;
+}
