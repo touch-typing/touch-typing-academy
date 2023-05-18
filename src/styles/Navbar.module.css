@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+/* margin - if give 4 values = top, right, bottom, left */
+/* if 3 values = top right/left bottom*/
+/* if  2 values = top/bottom   right/left */
+
+.nav {
+ font-family: 'Mulish';
+margin: 0 auto 88px;
+display: flex;
+gap: 2rem; 
+background-color: #FFFBFB;
+padding: 1rem;
+}
+
+.logo {
+ color: #53BAC1;
+ font-weight: bold;
+}
+
+.link_nav {
+ color: #373F41;
+ font-weight: 700;
+}
+
+
+/* active - retains nav link colour when you are on that page */
+.link_nav:hover, .link_nav:active{
+color: #DE0036;
+} 
+ 
