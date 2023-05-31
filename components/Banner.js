@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../src/styles/Banner.module.css"
+import Image from "next/image";
+
 
 //create div with header, paragraph and button,
 //wrap this div in another div to enable styling later
@@ -24,7 +26,7 @@ children and adults</h1>
 <p><span className={styles.banner_span} >Touch typing</span> is learning to type quickly and accurately without looking at your hands using all your fingers on specific keys. <span className={styles.banner_span}>Join our course</span> and gain a hugely beneficial skill for life.</p>
 <button className={styles.banner_button}>Our Courses</button>
 </div>
-<div className={styles.banner_image}>Insert Image</div>
+<div className={styles.banner_image}><Image src="/typist.png" width={150} height={170}/></div>
   </div>;
 }
 
