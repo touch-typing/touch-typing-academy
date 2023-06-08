@@ -19,6 +19,7 @@ import Image from "next/image";
 
 function Banner() {
   return <div className={styles.container}>
+  <div className={styles.banner_exclamation}><Image src="/exclamation.png" width={40} height={40}/></div>
   <div className={styles.banner_text}>
     <h1>Touch typing training for 
 children and adults</h1>
