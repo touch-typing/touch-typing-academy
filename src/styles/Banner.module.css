@@ -1,0 +1,11 @@
+.container {
+ display: grid;
+ grid-template-columns: repeat(2, [col-start]);
+grid-template-rows: 1fr 4fr 1fr ;
+gap: 5px;
+}
+
+.banner_image {
+/* grid-column: 3 / span 2; */
+}
+
