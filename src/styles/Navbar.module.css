@@ -7,11 +7,12 @@
 
 .nav {
  font-family: 'Mulish';
-margin: 0 auto 88px;
+/* margin: 0 auto 0px; */
 display: flex;
 gap: 2rem; 
 background-color: #FFFBFB;
 padding: 1rem;
+border: 1px solid blue;
 }
 
 .logo {
@@ -22,6 +23,7 @@ padding: 1rem;
 .link_nav {
  color: #373F41;
  font-weight: 700;
+ text-decoration: none;
 }
 
 
