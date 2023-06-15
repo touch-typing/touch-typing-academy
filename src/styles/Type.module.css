@@ -1,0 +1,36 @@
+.type_container {
+ display: grid;
+ grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr 1fr;
+ gap: 6px;
+ background-color: #Ffff;
+  grid-auto-rows: minmax(100px, auto);
+  /* border: 1px solid purple; */
+
+}
+
+
+.letter_e {
+ grid-column: 5;
+justify-self: end;
+}
+
+.letter_t {
+ grid-column: 2;
+ grid-row: 4;
+ justify-self: end;
+}
+
+ 
+ .letter_y {
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: end;
+ }
+
+
+ .letter_p {
+  grid-column: 4;
+  grid-row: 3;
+  justify-self: end;
+ }

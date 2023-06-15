@@ -27,6 +27,8 @@ children and adults</h1>
 <p><span className={styles.banner_span2} >Touch typing</span> is learning to type quickly and accurately without looking at your hands using all your fingers on specific keys. <span className={styles.banner_span3}>Join our course</span> and gain a hugely beneficial skill for life.</p>
 <button className={styles.banner_button}>Our Courses</button>
 </div>
+<div classname={styles.banner_letter_e}><Image src='/letter_e.png'width={40} height={40}/>
+</div>
 <div className={styles.banner_image}><Image src="/typist.png" width={170} height={170}/></div>
   </div>;
 }
