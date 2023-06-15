@@ -1,7 +1,7 @@
 .container {
  font-family: 'Mulish';
  display: grid;
- grid-template-columns: 0.3fr 2fr 2fr;
+ grid-template-columns: 0.3fr 2fr 2fr 0.3fr;
 grid-template-rows: 0.3fr;
 gap: 10px;
 background-color: #FFFBFB;
@@ -74,7 +74,9 @@ margin-top: 10px;
 
 .banner_letter_e {
   border: 1px solid black;
-  /* grid-column: 1;
+  grid-column: 4;
   grid-row: 2;
- justify-self: end; */
+ justify-self: end;
+ align-items: end;
+ grid-column: auto;
  }
