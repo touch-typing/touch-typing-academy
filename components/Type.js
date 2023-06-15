@@ -8,7 +8,7 @@ function Type() {
    <div className={styles.letter_t}><Image src="/letter_t.png" width={40} height={40}/></div>
    <div className={styles.letter_y}><Image src="/letter_y.png" width={40} height={40}/></div>
    <div className={styles.letter_p}><Image src="/letter_p.png" width={40} height={40}/></div>
-   <div className={styles.letter_e}><Image src="/letter_e.png" width={40} height={40}/></div>
+   {/* <div className={styles.letter_e}><Image src="/letter_e.png" width={40} height={40}/></div> */}
     </div>
   )
 }
